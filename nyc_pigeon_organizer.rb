@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if !new_pigeon_hash[pigeon_name][prop].include?(att)
-          new_pigeon_hash[pigeon_name][prop] << att.
+          new_pigeon_hash[pigeon_name][prop] << att.to_s
   
   
   
